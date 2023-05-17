@@ -1,0 +1,17 @@
+usar o tailwind para mobile
+
+npm i nativewind
+npm i tailwindcss -D
+npx tailwindcss init
+subtituir no tailwind.config.js - content: [], por content: ["./App.{js,jsx,ts,tsx}", "./<custom directory>/**/*.{js,jsx,ts,tsx}"],
+adicionar no babel.config.js plugins: ["nativewind/babel"],
+
+Usar o TypeScript
+adicionar no tsconfig.json
+ "types": [
+      "nativewind/types"
+    ]
+
+configurar o ESLint 
+npm i @rocketseat/eslint-config -D
+npm i prettier-plugin-tailwindcss -D

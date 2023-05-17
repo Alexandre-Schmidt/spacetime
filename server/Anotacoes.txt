@@ -1,0 +1,10 @@
+-> usei
+# Fastify
+# Node.js
+# TypeScript
+# Prisma + SQlite
+  npm i prisma -D 
+  npx prisma init --datasource-provider SQLite
+  criar a tabela no banco de dados: npx prisma migrate dev
+  visualizar o banco de dados: npx prisma studio
+  acessar o banco de dentro do servidor: npm i @prisma/client

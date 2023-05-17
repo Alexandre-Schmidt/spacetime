@@ -1,0 +1,10 @@
+-> Usei
+# Next.js
+  npx create-next-app@latest web --use-npm
+  Dar yes para tudo
+# ESLint + tailwind e Prettier (para deixar o codigo mais bonito)
+  npm i @rocketseat/eslint-config -D
+  altera o ESLint
+  npm i prettier-plugin-tailwindcss -D
+  cria o arquivo prettier.config.js
+  
