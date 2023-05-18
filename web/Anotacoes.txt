@@ -7,4 +7,5 @@
   altera o ESLint
   npm i prettier-plugin-tailwindcss -D
   cria o arquivo prettier.config.js
-  
+#icons 
+npm i lucide-react

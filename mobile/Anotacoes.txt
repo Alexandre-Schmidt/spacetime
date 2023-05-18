@@ -1,17 +1,28 @@
-usar o tailwind para mobile
-
+##usar o tailwind para mobile
 npm i nativewind
 npm i tailwindcss -D
 npx tailwindcss init
 subtituir no tailwind.config.js - content: [], por content: ["./App.{js,jsx,ts,tsx}", "./<custom directory>/**/*.{js,jsx,ts,tsx}"],
 adicionar no babel.config.js plugins: ["nativewind/babel"],
 
-Usar o TypeScript
+##Usar o TypeScript
 adicionar no tsconfig.json
  "types": [
       "nativewind/types"
     ]
 
-configurar o ESLint 
+##configurar o ESLint 
 npm i @rocketseat/eslint-config -D
 npm i prettier-plugin-tailwindcss -D
+
+##para usar o svg direto 
+npx expo install react-native-svg
+npm i -D react-native-svg-transformer
+criar o arquivo metro.config.js
+inserir o codigo que está no assets.d.ts
+
+
+## Usei
+-> expo-google-fonts
+npx expo install @expo-google-fonts/inter expo-font
+
