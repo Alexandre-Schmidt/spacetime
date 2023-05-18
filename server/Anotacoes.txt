@@ -8,3 +8,10 @@
   criar a tabela no banco de dados: npx prisma migrate dev
   visualizar o banco de dados: npx prisma studio
   acessar o banco de dentro do servidor: npm i @prisma/client
+  npx prisma migrate reset
+# Cors (determina quais urls podem acessar a API)
+ npm i @fastify/cors
+# axios (requisições http)
+npm i axios
+# JWT
+npm i @fastify/jwt

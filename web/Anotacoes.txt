@@ -9,3 +9,6 @@
   cria o arquivo prettier.config.js
 #icons 
 npm i lucide-react
+#OAuth
+
+ npm i axios 
