@@ -1,3 +1,5 @@
+npm run start
+
 ##usar o tailwind para mobile
 npm i nativewind
 npm i tailwindcss -D

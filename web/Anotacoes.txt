@@ -14,3 +14,6 @@ npm i lucide-react
  npm i axios 
 
  npm i jwt-decode
+
+ #tailwindcss Forms
+ npm install -D @tailwindcss/forms
